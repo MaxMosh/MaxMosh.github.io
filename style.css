@@ -1,0 +1,316 @@
+body {
+    color: white;
+    background-color: rgba(255, 6, 39, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 14px;*/
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    /*text-decoration: none;*/
+}
+
+@font-face {
+    font-family: "police_en_tete";
+    src: url("polices/police_en_tete.ttf");
+}
+
+
+@font-face {
+    font-family: "police_corps";
+    src: url("polices/police_corps.ttf");
+}
+
+@font-face {
+    font-family: "police_sphalt";
+    src: url("polices/Fixture-Italic-Condensed-ExtraBold.otf");
+}
+
+/*Header et menu de navigation*/
+
+.navigateur {
+    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #D6001C;
+    padding: 10px 50px;
+}
+
+.header-text {
+    font-family: "police_en_tete", sans-serif;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "police_corps", sans-serif;;
+    font-size: 1.2em;
+}
+
+.header-menu li {
+    margin: 0 30px;
+}
+
+
+.header-menu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: 0.1s;
+}
+
+
+.header-menu li a:hover {
+    color: white;
+    background-color: rgba(255, 6, 39, 1);
+    border-radius: 2px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: 0.1s;
+}
+
+
+/*On ajoute maintenant une animation lorsque l'on passe au dessus des boutons de navigation*/
+
+/*A FAIRE : PRESQUE FAIT*/
+
+
+/*Accueil : main*/
+
+/*Accueil : section 1*/
+
+.accueil_section_1 {
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgba(255, 6, 39, 1);
+    margin: auto;*/
+}
+
+.accueil_section_1_description {
+    display: inline;
+    justify-content: center;
+    margin: 100px
+}
+
+.photo_profil {
+    width: 500px;
+    margin: 50px;
+}
+
+.accueil_section1_grand_nom{
+    font-family: "police_en_tete", sans-serif;
+    font-size: 4em;
+    justify-content: center;
+}
+
+.accueil_section1_etudiant{
+    font-family: "police_en_tete", sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+
+/*Accueil : section 2*/
+
+.accueil_section_2 {
+    display: flex;
+    background-color: #D6001C;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin : auto;
+    /*flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 6, 39, 1);
+    margin: auto;*/
+}
+
+
+.accueil_groupement_deux_photos {
+    width: 20%;
+}
+
+.accueil_section_2 img {
+    width: 100%;
+    height: auto;
+}
+
+.accueil_section_2 img + img {
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+/*
+.accueil_photo_1_8 {
+}
+
+.accueil_photo_2_8 {
+}
+
+.accueil_photo_3_8 {
+}
+
+.accueil_photo_4_8 {
+}
+
+.accueil_photo_5_8 {
+}
+
+.accueil_photo_6_8 {
+}
+
+.accueil_photo_7_8 {
+}
+
+.accueil_photo_8_8 {
+}
+*/
+
+
+/* Profil */
+
+.profil_section_1 {
+    margin: 20px;
+    padding: 20px 100px;
+    background-color: white;
+    color: rgba(255, 6, 39, 1);
+}
+
+.profil_titre_section {
+    font-family: "police_en_tete", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding: 10px 0;
+    margin : auto;
+    font-weight: 10;
+}
+
+.profil_corps_section {
+    font-size: 1.2em;
+    font-family: "police_corps", sans-serif;
+    text-align: justify;
+}
+
+.profil_section_2 {
+    padding: 10px 0;
+    background-color: #D6001C;
+    color: white;
+}
+
+.profil_section_2 div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.profil_section_2 div div {
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_pdf {
+    margin: 10px 100px;
+    width: 100px;
+}
+
+
+/*Travaux*/
+
+.travaux section a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    height: 350px;
+    width: 75%;
+    background-size: cover;
+    background-position: center;
+}
+
+.travaux section a:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: underline;
+}
+
+
+.travaux_section_sphalt_titre_container {
+    background-image: url("images/photos/test/jeux_video.jpg");
+}
+
+.travaux_section_sphalt_titre_container:hover {
+    background-image: url("images/fonds_animes/nyan_cat.webp");
+}
+
+.travaux_section_sphalt_titre {
+    font-family: "police_sphalt", sans-serif;
+    font-size: 9em;
+    text-align: center;;
+    font-weight: 10;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Footer*/
+
+footer {
+    /*align-items: center;*/
+    justify-content: center;
+    margin: 80px 0;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+footer div a {
+    font-size: 1.3em;
+}
+
+.mail {
+    font-size: 0.9em;
+}
+
+footer div img {
+    margin: 0 auto;
+}
+
+.linkedin {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgba(255, 6, 39, 1);
+}
+
+.img_linkedin {
+    width: 30px;
+    margin: 10px;
+    vertical-align: middle;
+}
