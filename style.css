@@ -109,12 +109,13 @@ a {
 .accueil_section_1_description {
     display: inline;
     justify-content: center;
-    margin: 100px
+    margin-left: 100px;
 }
 
 .photo_profil {
     width: 500px;
     margin: 50px;
+    margin-right: 150px;
 }
 
 .accueil_section1_grand_nom{
