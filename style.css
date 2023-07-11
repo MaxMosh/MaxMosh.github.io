@@ -260,15 +260,17 @@ a {
 
 
 .travaux_section_sphalt_titre_container {
-    background-image: url("images/photos/test/jeux_video.jpg");
+    background-image: url("images/photos/fonds_fixes_bannières_animées/capture_film_sphalt.jpg");
 }
 
 .travaux_section_sphalt_titre_container:hover {
-    background-image: url("images/fonds_animes/nyan_cat.webp");
+    background-image: url("images/fonds_animes/arriere_plan_sphalt.gif");
 }
 
 .travaux_section_sphalt_titre {
     font-family: "police_sphalt", sans-serif;
+    text-shadow: 0px 0px 3px rgba(0,0,0,1);
+    padding: 100px;
     font-size: 9em;
     text-align: center;;
     font-weight: 10;
