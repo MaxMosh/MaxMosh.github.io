@@ -266,6 +266,7 @@ a {
 
 .travaux_section_sphalt_titre_container:hover {
     background-image: url("images/fonds_animes/arriere_plan_sphalt.gif");
+    background-size:cover;
 }
 
 .travaux_section_sphalt_titre {
